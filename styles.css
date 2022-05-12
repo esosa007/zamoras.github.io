@@ -1,0 +1,55 @@
+body {
+    background-image: url('images/calendar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 75%;
+    background-position: right;
+    
+}
+article {
+    background-color: white;
+    opacity: 96%;
+    height: auto;
+}
+#container {
+    padding: 0px;
+    margin: 0px;
+}
+#about, #menu, #contact {
+    color: black;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+#tacos, #aboutus, #body {
+    margin-top: 50px;
+}
+h1 {
+    font-family: 'Asset', cursive;
+    font-size: 1.75em;
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.h1 {
+    font-size: 1.75em;
+}
+main {
+    width: 70%;
+    margin: 50px auto 150px auto;
+    box-shadow: 10px 10px 20px gray;
+    padding: 15px;
+}
+.price {
+    float: right;
+}
+@media (max-width: 766px) {
+    main {
+        width: 80%;
+    }
+}
+@media (max-width: 575px) {
+    main {
+        width: 90%;
+    }
+}
